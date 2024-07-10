@@ -87,7 +87,7 @@ def parsing_function(input_folder_path, years):
         release_number, version = extract_release_and_version(input_folder_path)
         base_year_index = int(release_number) - 21
         year_offset = 0 if version < 2 else 1  # Adjust year based on version
-        year = years[base_year_index + year_offset]
+        year = int(years[base_year_index + year_offset])
         month = version_to_month[version]
 
         print(f"Processing: {input_folder_path}")
