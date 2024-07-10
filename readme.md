@@ -1,4 +1,4 @@
-## Documentation for Processing Multiple ONet Database Version Releases and Linking Work Activities to Occupations
+## Documentation ONET Database Version Processing and Linking
 
 This suite of scripts is designed to parse and combine different versions of ONet datasets, linking Tasks, DWA, IWA, and WA to occupations based on their importance (IM), relevance (RT), and frequency (FT). The repository includes ONet 28.x for test runs. 
 All O*Net database versions are available [here](https://www.onetcenter.org/db_releases.html).
